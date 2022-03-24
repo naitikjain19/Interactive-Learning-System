@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz ABCs</title>
+    <link rel="stylesheet" type="text/css" href="fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap_simplex.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Schoolbell">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+
+  <body>
+    <div id="main">
+      <header>
+        <div class="row subheader">
+          <div class="back-button col-md-2 col-xs-2">
+            <a class="trans-a" href="alphabet.html"><i class="fa fa-arrow-circle-left fa-4x"></i></a>
+          </div>
+          <div class="col-md-5 col-xs-offset-1 col-xs-5">
+           <a class="trans-a" href="alphabet.html"><img id="title-mini" src="img/logos/abc.png"></a>
+          </div>
+        </div>
+      </header>
+      <hr class="remove-margin-top">
+      <div class="instructions-learn">
+        <p>Tap on the word that matches the picture shown.</p>
+        <p>Get the answer correct to increase your score.</p>
+        <a class="btn btn-primary start-btn" href="#"> START </a>
+      </div>
+      <div id="learning-area">
+        <div id="quiz-top" class="container-fluid">
+          <p><span id="currentQ">X</span> of 10</p>
+          <img id="quiz-pic" src="img/apple.png" alt="placeholder">
+          <p id="score">Score: Z</p>
+        </div>
+        <p id="choose-correct"><strong>Tap on the matching word:</strong></p>
+        <div id="choose-answer" class="container-fluid">
+          <a href="#"><p id="answer1" class="answer-option col-md-6 col-xs-6">text1</p></a>
+          <a href="#"><p id="answer2" class="answer-option col-md-6 col-xs-6">text2</p></a>
+          <a href="#"><p id="answer3" class="answer-option col-md-6 col-xs-6">text3</p></a>
+          <a href="#"><p id="answer4" class="answer-option col-md-6 col-xs-6">text4</p></a>
+        </div>
+        <div id="answer-chosen" class="container-fluid">
+          <i class="fa fa-4x"></i>
+          <p id="correction">The correct answer is xxx</p>
+          <a id="next-question" class="btn btn-primary" href="#">Next question</a>
+        </div>
+        <div id="final-result">
+          <p>Your final score is:</p>
+          <p>SCORE</p>
+          <p>Well done!</p>
+          <a id="restart-quiz" class="btn btn-primary" href="#">Play again?</a>
+        </div>
+      </div>
+    </div>
+    <!-- load scripts at bottom of page for improved performance -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/alpha_scripts.js"></script>
+    <script type="text/javascript" src="js/ui_scripts.js"></script>
+  </body>
+</html>
