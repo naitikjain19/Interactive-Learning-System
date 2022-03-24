@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-ABC-123
-==============
 
-A mobile web app as an educational aid to young children for learning numbers, letters and simple words.
-
-It was created for first year "Introduction to Digital Media" module with [akham001](https://github.com/akham001), [sarah010](https://github.com/sarah010) and [aborext](https://github.com/aborext).
-
-The app can be viewed at: http://amrishparmar.github.io/ABC-123/ (looks best on smartphone or tablet).
-=======
 # Interactive Voice Based Learning-System (ABC-123-Hindi Alphabets)
 
 Here are some of the screenshots:
@@ -23,4 +14,3 @@ Here are some of the screenshots:
 ![Screenshot (115)](https://user-images.githubusercontent.com/60510325/159997036-e8d4bc7b-27ef-4502-9cfd-9a4440aae951.png)
 ![Screenshot (116)](https://user-images.githubusercontent.com/60510325/159997042-ca4bdde5-1b8f-4977-a24f-591faae1782b.png)
 ![Screenshot (117)](https://user-images.githubusercontent.com/60510325/159997550-c280be94-557e-4f3f-b7d2-3281833238aa.png)
->>>>>>> 18e63a93f1cf190b1e1104849e2fca076e2dd48a
